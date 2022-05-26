@@ -8,8 +8,8 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 //RestController는 data'만' 반환할 때 사용, Controller를 body에 html을 던져줄 때 사용.
-@Controller
 @RequiredArgsConstructor
+@Controller
 public class AssignmentController {
 
     private final AssignmentRepository repository;
